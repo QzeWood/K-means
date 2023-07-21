@@ -2,7 +2,6 @@
 # Author: Mr. Q
 # Introduction：肘部法确认k值
 
-
 import time
 import pandas as pd
 import numpy as np
@@ -48,9 +47,7 @@ axs[1].plot(range(2, 11), sil)
 axs[1].set_title('Silhouette Analysis-1')
 axs[1].set_xlabel('Number of clusters')
 axs[1].set_ylabel('Silhouette score')
-import os
-os.system('say "hey baby kiss my ass"')
-plt.show()
+
 print("======================================")
 # 打印最终汇总的SSE和Silhouette score
 print("Final SSE:", sse)
@@ -61,3 +58,6 @@ end_time = time.time()
 print(end_time)
 duration = end_time - start_time
 print(f"程式執行時間為 {duration:.2f} 秒")
+import os
+os.system('say "Done"')
+plt.show()
